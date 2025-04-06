@@ -18,7 +18,7 @@ module.exports = {
             xxl: '1600px',
             xxl2: '1920px',
             pageMaxWidth: '1440px'
-        }
+        },
     },
     plugins: [],
     

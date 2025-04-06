@@ -554,10 +554,79 @@ video {
   display: none;
 }
 
+.tw-mr-\[\.1rem\] {
+  margin-right: .1rem;
+}
+
+.tw-flex {
+  display: flex;
+}
+
+.tw-aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .tw-h-\[100dvh\] {
   height: 100dvh;
 }
 
+.tw-h-full {
+  height: 100%;
+}
+
+.tw-max-h-\[70\%\] {
+  max-height: 70%;
+}
+
 .tw-w-\[100dvw\] {
   width: 100dvw;
+}
+
+.tw-w-full {
+  width: 100%;
+}
+
+.tw-items-center {
+  align-items: center;
+}
+
+.tw-justify-center {
+  justify-content: center;
+}
+
+.tw-justify-between {
+  justify-content: space-between;
+}
+
+.tw-bg-\[rgba\(0\,0\,0\,\.7\)\] {
+  background-color: rgba(0,0,0,.7);
+}
+
+.tw-bg-\[url\(\'\.\.\/assets\/images\/bg\.webp\'\)\] {
+  background-image: url('../assets/images/bg.webp');
+}
+
+.tw-bg-cover {
+  background-size: cover;
+}
+
+.tw-bg-center {
+  background-position: center;
+}
+
+.tw-bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.tw-text-\[\.1rem\] {
+  font-size: .1rem;
+}
+
+.tw-font-bold {
+  font-weight: 700;
+}
+
+.tw-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
