@@ -1,4 +1,6 @@
 import icon from '../assets/images/peacock_flat.png';
+// 导入组件
+import HeaderNav from './Modules/HeaderNav';
 
 function PagesHeader() {
     return (
@@ -8,7 +10,7 @@ function PagesHeader() {
                     <img className='tw-max-h-[70%] tw-mr-[.1rem] tw-aspect-square' src={icon} alt='icon' />
                     <h1 className='tw-font-bold tw-text-[.1rem]'>Freecode Website</h1>
                 </div>
-                <nav></nav>
+                <HeaderNav />
             </div>
         </>
     )
