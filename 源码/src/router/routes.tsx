@@ -4,7 +4,7 @@ import { lazy, Suspense } from 'react';
 // 导入Antd组件
 import { Spin } from 'antd';
 
-const HomePages = lazy(() => import('../pages/HomePages'));
+const HomePages = lazy(() => import('../Pages/HomePages'));
 
 const routes = [
     {
